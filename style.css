@@ -112,7 +112,7 @@
 .login, .signup {
   background-image: url(imgs/OasisCafe_20230917_141758_0000.svg);
   background-position: center;
-  height: 92.3vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;

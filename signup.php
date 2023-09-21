@@ -33,7 +33,7 @@
           <h2>SIGN UP</h2>
         </div>
 
-        <form action="signup_process.php" method="get" onsubmit="return validateNameInput();">
+        <form action="signup_process.php" method="POST" onsubmit="return validateNameInput();">
     <div class="form-field">
         <input type="text" name="firstname" pattern="[A-Za-z\s]+" required>
         <label for="firstname">First Name</label>
@@ -53,6 +53,14 @@
     <div class="form-field">
         <input type="password" name="password" required>
         <label for="password">Password</label>
+    </div>
+    <div class="form-field">
+        <input type="email" name="email" required>
+        <label for="email">Email</label>
+    </div>
+    <div class="form-field">
+        <input type="tel" name="contact_number" required>
+        <label for="contact_number">Contact Number</label>
     </div>
     <div class="signup-button">
         <input type="submit" class="signup-btn" value="Signup">

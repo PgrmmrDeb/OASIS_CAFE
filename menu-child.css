@@ -26,6 +26,7 @@ ul {
   
   .menu-div {
     display: flex;
+    margin-bottom: 40px;
   }
   
   .left-menu li {
@@ -34,12 +35,14 @@ ul {
   .left-menu {
     margin-left: 50px;
     margin-top: 50px;
+    margin-bottom: 150px;
   }
   .right-menu{
     display: flex;
     flex-direction: column;
     margin-left: 120px;
     margin-top: 90px;
+    margin-bottom: 150px;
   }
   
   .section-header h4 {
